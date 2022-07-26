@@ -38,9 +38,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        {/* <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -85,6 +85,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/service"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Services
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
@@ -92,9 +105,19 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contacts
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/khaoulacherkaoui/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
