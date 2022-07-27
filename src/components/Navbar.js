@@ -45,7 +45,7 @@ function NavBar() {
         </Navbar.Brand> */}
         <Navbar.Brand href="/" >
           <div className="d-flex align-items-center">
-          <img src={logo} className="mypic" alt="brand" /><h1>Cherkaoui Khaoula</h1></div>
+          <img src={logo} className="mypic" alt="brand" />&nbsp;&nbsp;&nbsp;<h2>Cherkaoui Khaoula</h2></div>
         </Navbar.Brand> 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

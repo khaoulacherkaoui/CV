@@ -8,8 +8,8 @@
 }
 
 .mypic{
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: solid;
@@ -18,12 +18,19 @@
 
 .contact{
   color: white;
-  margin-top: 200px;
+  margin-top: 120px;
   margin-bottom: 20px;
 }
 
+.mail{
+  border-radius: 10%;
+  height: 450px;
+  width: 400px;
+  box-shadow: rgba(122, 149, 224) 0px 3px 8px;
+}
+
 .contactlogo{
-  color: black;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {

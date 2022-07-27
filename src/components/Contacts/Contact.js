@@ -9,24 +9,24 @@ function Contact() {
     <Container fluid className="services-section" id="contact">
       <div className="contact">
         <h1>For more info <strong className="purple">Contact Me :) </strong></h1>
-        
+        <br/>
         <div class="row align-items-center">
           <div class="col-2"></div>
           <div class="col-4 fade-in-left">
-            <img src={mail} alt="brand"/>
+            <img src={mail} alt="brand" className="mail"/>
           </div>
           <div class="col-3 fade-in-right">
-            <div class="list-group" id="list-tab" role="tablist">
-              <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+            <div class="list-group " id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action bg-black" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
                 <Email className="contactlogo"/> <strong className="purple">khaoulacherkaoui99@gmail.com</strong>
               </a>
-              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+              <a class="list-group-item list-group-item-action bg-black" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
                 <Phone className="contactlogo"/> <strong className="purple">0652570604</strong>
               </a>
-              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+              <a class="list-group-item list-group-item-action bg-black" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
                 <LocationOn className="contactlogo"/> <strong className="purple">Khouribga, Maroc</strong>
               </a>
-              <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+              <a class="list-group-item list-group-item-action bg-black" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
                 <LinkedIn className="contactlogo"/> <strong className="purple">
                   <a
                   href="https://www.linkedin.com/in/khaoulacherkaoui/"
