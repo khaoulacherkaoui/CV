@@ -22,7 +22,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative", marginTop: "60px", }}>
           <Button
             variant="primary"
             href={pdf}
