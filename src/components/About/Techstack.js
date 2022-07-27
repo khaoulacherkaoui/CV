@@ -46,9 +46,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact /><br/><span className="fs-3">React</span>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiAngularSimple /><br/><span className="fs-3">Angular</span>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs /><br/><span className="fs-3">Nodejs</span>
       </Col>

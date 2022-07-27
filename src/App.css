@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.mypic{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid;
+  border-color: purple;
+}
+
+.contact{
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.contactlogo{
+  color: black;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

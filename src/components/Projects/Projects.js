@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import sharedev from "../../Assets/Projects/sharedev.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+//import editor from "../../Assets/Projects/codeEditor.png";
+import ecoenergy from "../../Assets/Projects/ecoenergy.png";
+//import chatify from "../../Assets/Projects/chatify.png";
+import location_sale_immob from "../../Assets/Projects/location_sale_immob.png";
+import detection_maladies_plantes from "../../Assets/Projects/detection_maladies_plantes.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
+import salesrocket from "../../Assets/Projects/salesrocket.png";
 
 function Projects() {
   return (
@@ -23,55 +26,58 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={location_sale_immob}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="MANAGEMENT PLATFORM FOR THE SALE AND RENTAL"
+              description="Development of a management platform for the sale and rental of real estate, with location map and virtual map and virtual visit....TECNOLOGIES & TOOLS : Figma for design,NextJs,NodeJs,ExpressJs,MongoDB"
+              ghLink="https://github.com/khaoulacherkaoui/Immobilier-vente-achat"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={salesrocket}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Email Marketing"
+              description="a web application of Email Marketing with big data. Tools: Nodejs, Reactjs, Mongodb, Bigquery..."
+              ghLink="https://github.com/khaoulacherkaoui/API_EmailMarketing_PFE"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ecoenergy}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="EcoEnergy"
+              description="Our application aims to help users face the challenges of limited challenges posed by limited solar energy resources, 
+              determine the proper the right coordination of energy use between dwellings in a home, as well as residence, as well as improving 
+              energy efficiency. This is done through through the management of consumption schedules for each resident to optimize the energy 
+              bill and the peak"
+              ghLink="https://github.com/khaoulacherkaoui/EcoEnergy"
+              demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={sharedev}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="ShareDev"
+              description="A social network website built with the MERN stack. It is dedicated to developers and and allows them to know each 
+              other and share their experiences. TECNOLOGIES & TOOLS : Figma for design, MongoDB, ExpressJs, ReactJs, NodeJs"
+              ghLink="https://github.com/khaoulacherkaoui/Share-Dev"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={detection_maladies_plantes}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Mobile application for plant disease detection"
+              description="I was a member in hybrid cell we made a Mobile application for plant disease detection with a machine learning algorithm using ionic, then we did the integration with other cells"
+              ghLink=""
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>

@@ -12,6 +12,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiTwotoneCustomerService,
+  AiOutlineContacts
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -41,6 +43,10 @@ function NavBar() {
         {/* <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand> */}
+        <Navbar.Brand href="/" >
+          <div className="d-flex align-items-center">
+          <img src={logo} className="mypic" alt="brand" /><h1>Cherkaoui Khaoula</h1></div>
+        </Navbar.Brand> 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -88,7 +94,7 @@ function NavBar() {
                 to="/service"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <AiTwotoneCustomerService
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Services
@@ -111,7 +117,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contacts
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contacts
               </Nav.Link>
             </Nav.Item>
 
